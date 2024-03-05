@@ -77,7 +77,7 @@ body {
     justify-content: center;
 }
 
-.quote-box button {
+.two-btn button {
     background: rgb(23, 124, 229);
     color: #fff;
     border-radius: 25px;
@@ -92,7 +92,7 @@ body {
     font-size: 18px;
 }
 
-.quote-box button i {
+.two-btn button i {
     padding-left: 5px;
     display: flex;
     align-items: center;
@@ -102,7 +102,31 @@ body {
     color: blue;
 }
 
-.quote-box button:nth-child(2) {
+.two-btn button:nth-child(2) {
     background: transparent;
     color: #333;
+}
+
+#input-box {
+    background: transparent;
+    border: 2px solid rgb(23,124,229);
+    outline: none;
+    height: 40px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+#search {
+    background-color: rgb(23, 124, 229);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 14px;
 }
