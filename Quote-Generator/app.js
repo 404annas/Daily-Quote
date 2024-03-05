@@ -19,5 +19,5 @@ newQuote.addEventListener("click", (e) => {
 });
 
 function linked() {
-    window.open("https://www.linkedin.com/feed/?shareActive=true&text=Hello World!", "LinkedIn Window", "width=600, height=300")
+    window.open("https://www.linkedin.com/feed/?shareActive=true&text=" + quoteBox.innerHTML + "--- By --- " + authorName.innerHTML, "LinkedIn Window", "width=600, height=300")
 }
